@@ -1,8 +1,9 @@
 ToastJS is a javascript implementation of adroid style Toast (pop up) messages.
 
-Usage:
-	Syntax Toast(<string text here>, <int length here in ms>).show(TOAST_BOTTOM/TOAST_TOP/TOAST_LEFT/TOAST_RIGHT/<dom element>)
+Syntax:
+	Toast('String goes here', TOAST_LONG/TOAST_SHORT/TOAST_STICK/[int]).show(TOAST_BOTTOM/TOAST_TOP/TOAST_LEFT/TOAST_RIGHT/[dom element])
 
+Usage:
 	new Toast('Some text here').show();
 	new Toast('Some more text here', TOAST_LONG).show(TOAST_TOP);
 	
